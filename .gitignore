@@ -40,3 +40,22 @@ secrets.*
 # 临时文件
 *.tmp
 *.log
+
+# 二进制大文件（Git 不适合管理，会撑大仓库）
+# 单文件超过 10 MB 就不该进仓库；GitHub 超过 50 MB 警告、100 MB 直接拒收
+*.pptx
+*.docx
+*.xlsx
+*.keynote
+*.pages
+*.numbers
+*.mp4
+*.mov
+*.avi
+*.zip
+*.dmg
+*.iso
+*.psd
+
+# 例外：刻意保留的小文件可以在这里放行，例如：
+# !templates/sample.pptx
