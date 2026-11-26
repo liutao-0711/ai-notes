@@ -1,0 +1,42 @@
+# macOS 系统文件
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# 密钥与敏感信息（绝不提交）
+.env
+.env.*
+*.pem
+*.key
+*_credentials*
+credentials.json
+secrets.*
+
+# 大型模型与数据文件
+*.safetensors
+*.ckpt
+*.gguf
+*.pt
+*.pth
+
+# 临时文件
+*.tmp
+*.log
